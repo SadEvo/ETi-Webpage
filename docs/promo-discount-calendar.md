@@ -125,6 +125,21 @@ tool scopes to **one** collection. For these I'll either (a) create a small temp
 **"Campaign" collection** for the promo, or (b) set them up via GraphQL to target multiple
 collections. Single-model and sitewide codes are straightforward. Flag your preference.
 
+### Prefill status (live in Shopify)
+
+**Staged & scheduled (inactive until their window):**
+`SEVENS` · `LABORDAY` · `SEMA` · `REFUND` · `MEMORIAL` — all created as scheduled discounts;
+they will not apply to any order before their start date and auto-expire at the end date.
+
+**Pending build (need a scoping decision before prefill):**
+- Multi-model campaign collections: `SHOWSEASON` (aero), `GODZILLA` (GTR R32–R35),
+  `BLACKOUT` (rotary RX-7+RX-8), `GIFT` (apparel/accessories/titanium), `TAS2027` (JDM heroes),
+  `BUILDLOVE` (interior/trim).
+- Curated collections: `YEAREND` (clearance set), `SPRING` (new-products set),
+  `MARCH` (season's feature model — chosen closer to date).
+- `BF2026`: tiered 10/15/20 — implemented as an **automatic discount** (set via GraphQL /
+  Shopify Function) since native code discounts can't tier; built closer to November.
+
 ---
 
 ## 6. Getting each promo in front of *actual buyers*
