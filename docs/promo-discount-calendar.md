@@ -128,14 +128,17 @@ collections. Single-model and sitewide codes are straightforward. Flag your pref
 ### Prefill status (live in Shopify)
 
 **Staged & scheduled (inactive until their window):**
-`SEVENS` · `LABORDAY` · `SEMA` · `REFUND` · `MEMORIAL` · `GODZILLA` · `BLACKOUT` · `GIFT` — all
-created as scheduled discounts; they will not apply to any order before their start date and
-auto-expire at the end date. Three are scoped to **temporary campaign collections** curated from
-the existing model/category collections:
-- *Campaign — Godzilla (GTR R32–R35)* — 224 products, merged from the R32/R33/R34/R35 GTR collections.
-- *Campaign — Blackout (Rotary RX-7 + RX-8)* — 134 products, merged from the Mazda RX7 + RX8 collections.
-- *Campaign — Holiday Gifts (Titanium & Swag)* — 66 products, merged from Titanium Products + Shirts/Swag + Shift Knobs.
-These are clearly labeled "Campaign —" and safe to delete after each promo.
+`SEVENS` · `SHOWSEASON` · `LABORDAY` · `GODZILLA` · `BLACKOUT` · `SEMA` · `GIFT` · `TAS2027` ·
+`BUILDLOVE` · `REFUND` · `MEMORIAL` — all created as scheduled discounts; they will not apply to
+any order before their start date and auto-expire at the end date. Six are scoped to **temporary
+campaign collections**:
+- *Campaign — Godzilla (GTR R32–R35)* — 224 products, curated from the R32/R33/R34/R35 GTR collections.
+- *Campaign — Blackout (Rotary RX-7 + RX-8)* — 134 products, curated from Mazda RX7 + RX8.
+- *Campaign — Holiday Gifts (Titanium & Swag)* — 66 products, curated from Titanium + Shirts/Swag + Shift Knobs.
+- *Campaign — Showseason (Aero & Body)* — ~1,300 products, **smart** (title rules: Body Kit/Wing/Diffuser/Hood/Bumper/…). Broad; trim if a tighter aero set is wanted.
+- *Campaign — Buildlove (Interior & Trim)* — ~99 products, **smart** (title rules: Interior/Dash/Door Card/Console/Seat/…).
+- *Campaign — TAS Heroes (JDM Icons)* — ~700 products, **smart** (title rules: Supra/RX-7/R34/350Z/GT86/Evo).
+"Campaign —" collections are clearly labeled and safe to delete after each promo.
 
 **`BF2026` — Black Friday tiered (staged):** built as **three scheduled automatic discounts**
 (10% over $500 · 15% over $1,500 · 20% over $3,000), set *not to combine with each other* so
@@ -146,16 +149,9 @@ tiers don't stack. If bulletproof tiering is required, replace with a single Sho
 **Housekeeping done:** two stray open-ended ACTIVE 10% codes (`NT8YMY9VFZNB`, `JBQ4A9VWGZFJ`)
 that had no expiry were expired.
 
-**Still pending — blocked on a curation/decision (catalog can't supply these cleanly):**
-- `SHOWSEASON` (aero/body kits) — the *Aero* collection is **empty**; body kits live scattered
-  inside each model collection. Needs either a curated aero list or approval to build a title-rule
-  smart collection (Body Kit / Wing / Diffuser / Lip / Splitter / Spoiler …).
-- `TAS2027` (JDM heroes) — subjective hero set. Proposed sources to confirm: Supra MKIV, RX-7,
-  R34 GTR, 350Z, GT86, Evo 8/9.
-- `BUILDLOVE` (interior/trim) — no interior collection exists; needs a curated list or a
-  product-type rule.
-- `YEAREND` (clearance) — no clearance collection; Nate needs to flag which items are clearance.
-- `SPRING` (new products) — no unified "new arrivals" collection (only per-brand "New" dumps).
+**Still pending — only these need Nate's manual curation (catalog can't supply them):**
+- `YEAREND` (clearance) — no clearance collection; flag which items are clearance, then I'll stage it.
+- `SPRING` (new products) — no unified "new arrivals" collection (only per-brand "New" dumps); confirm a source.
 - `MARCH` (feature model) — pick the season's bestselling model closer to the date.
 
 ---
