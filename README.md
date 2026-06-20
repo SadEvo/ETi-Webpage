@@ -1,52 +1,53 @@
-# Elite Ti — Event-Based Sales & Marketing Plan
+# Elite Ti — Sales & Marketing Plan
 
-A 12-month playbook for turning Elite Ti's biggest sales driver — **events and group buys**
-— into a repeatable, calendar-driven engine. Built to give the marketing team a clear "what
-are we promoting this month and where do we post it" answer every single week.
+A two-tier system for turning Elite Ti's biggest sales driver — **events, group buys, and
+time-boxed promotions** — into a repeatable engine, with a clear split between a **human
+creative agent** and an **AI positioning/distribution agent**.
 
-## Why this plan exists
+## The two deliverables (start here)
 
-Elite Ti's largest revenue events are tied to **group buys, new-product launches, and
-seasonal / car-community moments**. Right now those happen opportunistically. The goal here is
-to schedule **at least one — ideally two — promotable events every month**, so the marketing
-agent always has something to tease, launch, and follow up on.
+| Report | PDF | For | Contents |
+|---|---|---|---|
+| **1. Marketing Execution Plan** | `Elite-Ti-1-Marketing-Execution-Plan.pdf` | Nate / Luna | The two-tier operating model, RACI, how the AI agent "reacts," channel ownership, the human agent's distribution sheet, and the catalog-spanning Klaviyo email/SMS program |
+| **2. Promo & Discount Calendar** | `Elite-Ti-2-Promo-and-Discount-Calendar.pdf` | Nate (approval) | 12 months of time-boxed offers, the discount toolkit, a **Shopify-ready code spec sheet** (every code has a hard start/end), Black Friday strategy, and buyer-targeting |
 
-## What the data says (last 12 months)
+Source Markdown lives in [`docs/`](docs/); regenerate the PDFs with `python3 build_pdf.py`.
 
-Pulled from Shopify analytics, June 2025 → June 2026:
+## How the two tiers split
 
-| Insight | Number | What it means for us |
-|---|---|---|
-| Total sales (trailing 12mo) | **~$380K** | Healthy, but lumpy — driven by spikes, not steady flow |
-| Biggest spike | **Mid-March 2026: ~$81K across 2 weeks** | Tax-refund season + the SC300/SC400 door card pre-order. This is the template. |
-| Other big spikes | Mid-April (~$23K), Black Friday/Cyber week (~$25K), August (~$11K) | Predictable windows — load big events into them |
-| Top product | **SC300/SC400 Door Cards PreOrder — $31K / 24 orders** | A *pre-order group buy* is our single best revenue tool |
-| Average order value | **~$1,000–$1,240** | High-ticket. Buyers research and commit. Email/SMS + group buys > impulse discounts |
-| Social referral sales | **$117K / 99 orders ($1,022 AOV)** | Our #1 *identifiable* channel. Justifies serious investment in social distribution |
-| Search referral sales | **$39K / 54 orders** | SEO + paid search is an under-developed second channel |
+- **Human agent (creative):** shoots/edits photos, carousels, videos; posts natively to
+  Facebook, Instagram, TikTok (+ new platforms). Needs *direction on where to put what.*
+- **AI agent (positioning + owned channels, Luna-run):** runs Klaviyo email/SMS, reshares social
+  into model-specific FB/IG groups, posts to Reddit/forums via a desktop browser, owns UTM
+  attribution and reporting, and prefills approved discount codes in Shopify.
 
-**Three core platforms drive nearly everything we sell:**
+## What the data says (trailing 12 months)
 
-- **Mazda RX-7 (FD3S)** — carbon interior trim, rear seat delete, headlights, hoods, door sills
-- **Toyota Supra (MK4 / A80 / JZA80)** — body kits, hoods, AC kits, door cards, dashes
-- **Lexus SC300/SC400 (Soarer / Z30)** — door cards, window trims, and the upcoming door trim / door card group buy
+- **~$380K** total sales — driven by spikes, not steady flow.
+- Biggest spike: **mid-March 2026, ~$81K in two weeks** (tax-refund season + the SC300/SC400
+  door card pre-order). Other spikes: mid-April (~$23K), Black Friday/Cyber week (~$25K), August.
+- Top product: **SC300/SC400 Door Cards PreOrder — $31K** → group buys are our best revenue tool.
+- **AOV ~$1,000–1,240** (high-ticket, considered purchase → favor email/SMS + group buys).
+- **Social referral: $117K / 99 orders** — our #1 identifiable channel.
+- **Catalog is broad** (100+ collections: RX-7, Supra MK4/MK5, all GTRs, Evo, 350Z/370Z, GT86,
+  RX8, Honda, BMW, Tesla, Porsche, Mitsubishi, universal titanium…), but sales concentrate on a
+  few platforms. There are also duplicate / "to-review" collections worth cleaning up.
 
-## How to use this repo
+## Discipline on discounts
 
-| File | For | Contents |
-|---|---|---|
-| [`docs/event-sales-calendar.md`](docs/event-sales-calendar.md) | Nate + marketing | Rolling 12-month calendar — 1–2 events per month, mapped to products and proven spike windows |
-| [`docs/group-buy-playbook.md`](docs/group-buy-playbook.md) | Whoever runs a buy | The repeatable mechanics: tiers, MOQ, deposits, timeline, and the two confirmed buys (SC300/SC400 + Sevens Day) |
-| [`docs/marketing-distribution-plan.md`](docs/marketing-distribution-plan.md) | The marketing agent | Channel map, content cadence, tools beyond Metricool, what access to grant, and KPIs |
+Premium titanium/carbon at a ~$1,000 AOV — we don't train buyers to wait for 30% off. Most
+promos are **10–15%**, often with a **minimum spend**; Black Friday is the exception (15% or
+tiered). Group buys use **tiered pre-order pricing**, never stacked codes. Every discount code is
+**time-boxed and auto-expires.**
 
-## The two events already locked in
+## Supporting docs in `docs/`
 
-1. **SC300/SC400/Soarer Door Trim + Door Card Group Buy** — launching end of June 2026.
-   List pricing: **~$900 door trims**, **~$1,400 door cards** (in line with the Supra door
-   cards; includes the handle and hardware). See the playbook.
-2. **Sevens Day (7/7)** — RX-7 promo: **10–15% off RX-7 orders over $1,000** (hoods,
-   interiors, etc.). See the calendar + playbook.
+- `marketing-execution-plan.md` — Report 1 source
+- `promo-discount-calendar.md` — Report 2 source
+- `group-buy-playbook.md` — repeatable group-buy mechanics (bundled into Report 2's PDF)
+- `event-sales-calendar.md` — narrative 12-month event calendar (background context)
 
 ---
 
-*Maintained by Elite Ti. Update the calendar quarterly as new products and group buys come online.*
+*Maintained by Elite Ti. Discount depths/dates in Report 2 are proposals pending Nate's approval;
+codes are prefilled in Shopify only after approval, always with a set end date.*
