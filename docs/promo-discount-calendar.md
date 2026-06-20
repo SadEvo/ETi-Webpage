@@ -128,14 +128,21 @@ collections. Single-model and sitewide codes are straightforward. Flag your pref
 ### Prefill status (live in Shopify)
 
 **Staged & scheduled (inactive until their window):**
-`SEVENS` · `LABORDAY` · `SEMA` · `REFUND` · `MEMORIAL` — all created as scheduled discounts;
-they will not apply to any order before their start date and auto-expire at the end date.
+`SEVENS` · `LABORDAY` · `SEMA` · `REFUND` · `MEMORIAL` · `GODZILLA` · `BLACKOUT` — all created
+as scheduled discounts; they will not apply to any order before their start date and auto-expire
+at the end date. `GODZILLA` and `BLACKOUT` are scoped to two **temporary campaign collections**
+curated from the existing model collections:
+- *Campaign — Godzilla (GTR R32–R35)* — 224 products, merged from the R32/R33/R34/R35 GTR collections.
+- *Campaign — Blackout (Rotary RX-7 + RX-8)* — 134 products, merged from the Mazda RX7 + RX8 collections.
+These are clearly labeled "Campaign —" and safe to delete after each promo.
 
-**Pending build (need a scoping decision before prefill):**
-- Multi-model campaign collections: `SHOWSEASON` (aero), `GODZILLA` (GTR R32–R35),
-  `BLACKOUT` (rotary RX-7+RX-8), `GIFT` (apparel/accessories/titanium), `TAS2027` (JDM heroes),
-  `BUILDLOVE` (interior/trim).
-- Curated collections: `YEAREND` (clearance set), `SPRING` (new-products set),
+**Housekeeping done:** two stray open-ended ACTIVE 10% codes (`NT8YMY9VFZNB`, `JBQ4A9VWGZFJ`)
+that had no expiry were expired.
+
+**Pending build (need a scoping decision or are date-dependent):**
+- Campaign collections to curate: `SHOWSEASON` (aero/body kits), `GIFT` (apparel/accessories/
+  titanium), `TAS2027` (JDM heroes), `BUILDLOVE` (interior/trim).
+- Curated sets: `YEAREND` (clearance — needs items flagged), `SPRING` (new-products),
   `MARCH` (season's feature model — chosen closer to date).
 - `BF2026`: tiered 10/15/20 — implemented as an **automatic discount** (set via GraphQL /
   Shopify Function) since native code discounts can't tier; built closer to November.
