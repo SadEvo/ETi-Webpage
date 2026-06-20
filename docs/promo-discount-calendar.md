@@ -128,24 +128,35 @@ collections. Single-model and sitewide codes are straightforward. Flag your pref
 ### Prefill status (live in Shopify)
 
 **Staged & scheduled (inactive until their window):**
-`SEVENS` · `LABORDAY` · `SEMA` · `REFUND` · `MEMORIAL` · `GODZILLA` · `BLACKOUT` — all created
-as scheduled discounts; they will not apply to any order before their start date and auto-expire
-at the end date. `GODZILLA` and `BLACKOUT` are scoped to two **temporary campaign collections**
-curated from the existing model collections:
+`SEVENS` · `LABORDAY` · `SEMA` · `REFUND` · `MEMORIAL` · `GODZILLA` · `BLACKOUT` · `GIFT` — all
+created as scheduled discounts; they will not apply to any order before their start date and
+auto-expire at the end date. Three are scoped to **temporary campaign collections** curated from
+the existing model/category collections:
 - *Campaign — Godzilla (GTR R32–R35)* — 224 products, merged from the R32/R33/R34/R35 GTR collections.
 - *Campaign — Blackout (Rotary RX-7 + RX-8)* — 134 products, merged from the Mazda RX7 + RX8 collections.
+- *Campaign — Holiday Gifts (Titanium & Swag)* — 66 products, merged from Titanium Products + Shirts/Swag + Shift Knobs.
 These are clearly labeled "Campaign —" and safe to delete after each promo.
+
+**`BF2026` — Black Friday tiered (staged):** built as **three scheduled automatic discounts**
+(10% over $500 · 15% over $1,500 · 20% over $3,000), set *not to combine with each other* so
+Shopify applies only the single best-qualifying tier per cart. ⚠️ **Verify before go-live:** run a
+test/draft cart at each threshold ($800, $1,800, $3,200) to confirm only one tier applies and the
+tiers don't stack. If bulletproof tiering is required, replace with a single Shopify Discount Function.
 
 **Housekeeping done:** two stray open-ended ACTIVE 10% codes (`NT8YMY9VFZNB`, `JBQ4A9VWGZFJ`)
 that had no expiry were expired.
 
-**Pending build (need a scoping decision or are date-dependent):**
-- Campaign collections to curate: `SHOWSEASON` (aero/body kits), `GIFT` (apparel/accessories/
-  titanium), `TAS2027` (JDM heroes), `BUILDLOVE` (interior/trim).
-- Curated sets: `YEAREND` (clearance — needs items flagged), `SPRING` (new-products),
-  `MARCH` (season's feature model — chosen closer to date).
-- `BF2026`: tiered 10/15/20 — implemented as an **automatic discount** (set via GraphQL /
-  Shopify Function) since native code discounts can't tier; built closer to November.
+**Still pending — blocked on a curation/decision (catalog can't supply these cleanly):**
+- `SHOWSEASON` (aero/body kits) — the *Aero* collection is **empty**; body kits live scattered
+  inside each model collection. Needs either a curated aero list or approval to build a title-rule
+  smart collection (Body Kit / Wing / Diffuser / Lip / Splitter / Spoiler …).
+- `TAS2027` (JDM heroes) — subjective hero set. Proposed sources to confirm: Supra MKIV, RX-7,
+  R34 GTR, 350Z, GT86, Evo 8/9.
+- `BUILDLOVE` (interior/trim) — no interior collection exists; needs a curated list or a
+  product-type rule.
+- `YEAREND` (clearance) — no clearance collection; Nate needs to flag which items are clearance.
+- `SPRING` (new products) — no unified "new arrivals" collection (only per-brand "New" dumps).
+- `MARCH` (feature model) — pick the season's bestselling model closer to the date.
 
 ---
 
