@@ -38,6 +38,10 @@ Pulled from Shopify analytics, June 2025 → June 2026:
 | [`docs/event-sales-calendar.md`](docs/event-sales-calendar.md) | Nate + marketing | Rolling 12-month calendar — 1–2 events per month, mapped to products and proven spike windows |
 | [`docs/group-buy-playbook.md`](docs/group-buy-playbook.md) | Whoever runs a buy | The repeatable mechanics: tiers, MOQ, deposits, timeline, and the two confirmed buys (SC300/SC400 + Sevens Day) |
 | [`docs/marketing-distribution-plan.md`](docs/marketing-distribution-plan.md) | The marketing agent | Channel map, content cadence, tools beyond Metricool, what access to grant, and KPIs |
+| [`docs/engagement-diagnosis.md`](docs/engagement-diagnosis.md) | Nate + marketing | Why FB/IG engagement looks low, what to actually measure, and how to pull a real audit |
+| [`docs/utm-link-library.md`](docs/utm-link-library.md) | The marketing agent | Copy-paste UTM links per channel/event so we can finally see what converts |
+| [`docs/facebook-group-forum-sop.md`](docs/facebook-group-forum-sop.md) | Agent / community mgr | Target FB Group + forum list and the manual per-event posting checklist |
+| [`docs/content-calendar-30day.md`](docs/content-calendar-30day.md) | The marketing agent | Day-by-day 30-day post plan for the door-card GB + Sevens Day |
 
 ## The two events already locked in
 
