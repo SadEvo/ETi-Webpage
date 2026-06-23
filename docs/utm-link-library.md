@@ -6,8 +6,10 @@
 
 ## The standard format
 
+> **Store domain: `myeliteti.com`** (confirmed live from Shopify).
+
 ```
-https://eliteti.com/PRODUCT-OR-PAGE?utm_source=SOURCE&utm_medium=MEDIUM&utm_campaign=CAMPAIGN
+https://myeliteti.com/PRODUCT-OR-PAGE?utm_source=SOURCE&utm_medium=MEDIUM&utm_campaign=CAMPAIGN
 ```
 
 | Parameter | Meaning | Allowed values (keep this list tight) |
@@ -36,33 +38,37 @@ https://eliteti.com/PRODUCT-OR-PAGE?utm_source=SOURCE&utm_medium=MEDIUM&utm_camp
 
 ## Ready-to-copy links — Event #1: SC300/SC400 Door Card Group Buy
 
-Replace `eliteti.com/door-card-gb` with the real product/landing URL once live.
+> **Note:** the dedicated SC300/SC400 door-card/door-trim product page isn't live yet (the group
+> buy launches end of June). Links below point to the **`toyota-lexus` collection** as an interim
+> landing spot — **swap in the real product/landing URL the moment the GB page is published**, and
+> keep the same `?utm_...` query string.
 
 | Where you're posting | Copy-paste link |
 |---|---|
-| Instagram feed/Reel | `https://eliteti.com/door-card-gb?utm_source=instagram&utm_medium=social&utm_campaign=sc-doorcard-gb` |
-| Instagram story | `https://eliteti.com/door-card-gb?utm_source=instagram_story&utm_medium=social&utm_campaign=sc-doorcard-gb` |
-| Link in bio | `https://eliteti.com/door-card-gb?utm_source=instagram_bio&utm_medium=bio&utm_campaign=sc-doorcard-gb` |
-| Facebook Group post | `https://eliteti.com/door-card-gb?utm_source=facebook_group&utm_medium=social&utm_campaign=sc-doorcard-gb` |
-| ClubLexus thread | `https://eliteti.com/door-card-gb?utm_source=clublexus&utm_medium=forum&utm_campaign=sc-doorcard-gb` |
-| SC300.org thread | `https://eliteti.com/door-card-gb?utm_source=sc300org&utm_medium=forum&utm_campaign=sc-doorcard-gb` |
-| Email blast | `https://eliteti.com/door-card-gb?utm_source=email&utm_medium=email&utm_campaign=sc-doorcard-gb` |
-| SMS blast | `https://eliteti.com/door-card-gb?utm_source=sms&utm_medium=sms&utm_campaign=sc-doorcard-gb` |
+| Instagram feed/Reel | `https://myeliteti.com/collections/toyota-lexus?utm_source=instagram&utm_medium=social&utm_campaign=sc-doorcard-gb` |
+| Instagram story | `https://myeliteti.com/collections/toyota-lexus?utm_source=instagram_story&utm_medium=social&utm_campaign=sc-doorcard-gb` |
+| Link in bio | `https://myeliteti.com/collections/toyota-lexus?utm_source=instagram_bio&utm_medium=bio&utm_campaign=sc-doorcard-gb` |
+| Facebook Group post | `https://myeliteti.com/collections/toyota-lexus?utm_source=facebook_group&utm_medium=social&utm_campaign=sc-doorcard-gb` |
+| ClubLexus thread | `https://myeliteti.com/collections/toyota-lexus?utm_source=clublexus&utm_medium=forum&utm_campaign=sc-doorcard-gb` |
+| SC300.org thread | `https://myeliteti.com/collections/toyota-lexus?utm_source=sc300org&utm_medium=forum&utm_campaign=sc-doorcard-gb` |
+| Email blast | `https://myeliteti.com/collections/toyota-lexus?utm_source=email&utm_medium=email&utm_campaign=sc-doorcard-gb` |
+| SMS blast | `https://myeliteti.com/collections/toyota-lexus?utm_source=sms&utm_medium=sms&utm_campaign=sc-doorcard-gb` |
 
 ## Ready-to-copy links — Event #2: Sevens Day (RX-7)
 
-Replace `eliteti.com/sevens-day` with the real sale/collection URL.
+> Pointed at the live **`rx7` collection** (105 products). Swap to a dedicated Sevens Day sale
+> page if one is built; keep the query string.
 
 | Where you're posting | Copy-paste link |
 |---|---|
-| Instagram feed/Reel | `https://eliteti.com/sevens-day?utm_source=instagram&utm_medium=social&utm_campaign=sevens-day-2026` |
-| Instagram story | `https://eliteti.com/sevens-day?utm_source=instagram_story&utm_medium=social&utm_campaign=sevens-day-2026` |
-| Link in bio | `https://eliteti.com/sevens-day?utm_source=instagram_bio&utm_medium=bio&utm_campaign=sevens-day-2026` |
-| RX-7 Facebook Group | `https://eliteti.com/sevens-day?utm_source=facebook_group&utm_medium=social&utm_campaign=sevens-day-2026` |
-| rx7club.com thread | `https://eliteti.com/sevens-day?utm_source=rx7club&utm_medium=forum&utm_campaign=sevens-day-2026` |
-| r/rx7 | `https://eliteti.com/sevens-day?utm_source=reddit&utm_medium=social&utm_campaign=sevens-day-2026` |
-| Email blast | `https://eliteti.com/sevens-day?utm_source=email&utm_medium=email&utm_campaign=sevens-day-2026` |
-| SMS blast | `https://eliteti.com/sevens-day?utm_source=sms&utm_medium=sms&utm_campaign=sevens-day-2026` |
+| Instagram feed/Reel | `https://myeliteti.com/collections/rx7?utm_source=instagram&utm_medium=social&utm_campaign=sevens-day-2026` |
+| Instagram story | `https://myeliteti.com/collections/rx7?utm_source=instagram_story&utm_medium=social&utm_campaign=sevens-day-2026` |
+| Link in bio | `https://myeliteti.com/collections/rx7?utm_source=instagram_bio&utm_medium=bio&utm_campaign=sevens-day-2026` |
+| RX-7 Facebook Group | `https://myeliteti.com/collections/rx7?utm_source=facebook_group&utm_medium=social&utm_campaign=sevens-day-2026` |
+| rx7club.com thread | `https://myeliteti.com/collections/rx7?utm_source=rx7club&utm_medium=forum&utm_campaign=sevens-day-2026` |
+| r/rx7 | `https://myeliteti.com/collections/rx7?utm_source=reddit&utm_medium=social&utm_campaign=sevens-day-2026` |
+| Email blast | `https://myeliteti.com/collections/rx7?utm_source=email&utm_medium=email&utm_campaign=sevens-day-2026` |
+| SMS blast | `https://myeliteti.com/collections/rx7?utm_source=sms&utm_medium=sms&utm_campaign=sevens-day-2026` |
 
 ---
 

@@ -13,6 +13,26 @@ number.**
 
 ---
 
+## Real numbers — pulled live from Shopify (trailing 12 months)
+
+| Order referrer source | Orders | Total sales | Share of revenue |
+|---|---|---|---|
+| **(direct / unattributed)** | **136** | **$293,170** | **~63%** |
+| social | 59 | $68,283 | ~15% |
+| search | 36 | $29,871 | ~6% |
+
+**This is the headline.** Nearly **two-thirds of revenue is completely unattributed** — Shopify
+has no idea where it came from. That's almost certainly Facebook Groups, forums, DMs, and people
+typing `myeliteti.com` after seeing us in a community. It is *not* "no marketing working" — it's
+**marketing working invisibly.** We literally cannot tell which posts, groups, or platforms drive
+that $293K, so we can't double down on it.
+
+> **Implication:** "low engagement" is partly a measurement illusion. The traffic and sales are
+> there; the *visibility* into them is not. Fixing attribution (UTMs) comes before spending a
+> dollar on "more engagement." See `utm-link-library.md`.
+
+---
+
 ## The honest diagnosis (from our own data + plan)
 
 | # | Likely cause | Evidence in our own docs | Fix |
